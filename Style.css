@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+.container-hero {
+    background-image: url(../image/hero.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.text {
+    text-align: center;
+    font-size: 40px;
+    color: turquoise;
+}
+
+.container-info-panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+}
+
+.info-panel {
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px;
+}
+
+.judul-info-panel {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-panel p {
+    font-size: 14px;
+}
+
+.info-panel .fa-brands, .fas {
+    font-size: 40px;
+    color: rgb(73, 16, 207);
+    margin-bottom: 18px;
+}
+
+.container-paket-class {
+    background-color: rosybrown;
+    margin-top: 50px;
+}
+
+.header h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px red;
+    margin-top: 5px;
+}
+
+.container-card-flex {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.card-items {
+    width: 400px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px -0px;
+    border-radius: 15px;
+}
+
+.card-items img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-items p {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-items button {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+
+.card-items button:hover {
+    background-color: rgb(214, 189, 26);
+    color: black;
+}
+
+.container-showcase {
+    margin-top: 50px;
+}
+
+.showcase-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.showcase-items {
+    width: 500px;
+}
+
+.showcase-items img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.showcase-items p {
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.showcase-items button {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+
+.showcase-items button:hover {
+    background-color: rgb(214, 189, 26);
+    color: black;
+}
+.container-galeri {
+    margin-top: 50px;
+    background-color: blanchedalmond;
+}
+
+.container-galeri h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.container-galeri hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px red;
+    margin-top: 5px;
+}
+
+.galeri-flex {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.galeri-items {
+    width: 400px;
+}
+
+.galeri-items img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.galeri-items img:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.container-testimoni {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.testimoni-flex {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.testimoni-items {
+    width: 300px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 20px -5px;
+    pad: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.testimoni-items img {
+    width: 30%;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    margin: 20px;
+    filter: sepia(100%);
+}
+
+.testimoni-items q {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.container-footer  {
+    margin-top: 50px;
+    background-color: teal;
+}
+
+.footer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer-items-logo {
+    width: 400px;
+}
+
+.footer-items-logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.footer-items-teks {
+    width: 500px;
+    text-align: right;
+}
+
+.footer-items-teks p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-items-teks .fa-brands {
+    color: white;
+    font-size:20px;
+    margin-top: 20px;
+}
